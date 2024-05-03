@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import UserProfileCard from './Components/UserProfileCard/UserProfileCard';
-import SignUp from './Components/SignUpPage/SignUp';
+import logo from "./logo.svg";
+import "./App.css";
+import UserProfileCard from "./Components/UserProfileCard/UserProfileCard";
+import SignUp from "./Components/SignUpPage/SignUp";
+import Box from "./Components/box/box";
 
 function App() {
   return (
     <div className="App">
-      <UserProfileCard/>
-      <SignUp/>
+      <UserProfileCard />
+      <SignUp />
+      <Box />
     </div>
   );
 }
